@@ -2,4 +2,4 @@ matplotlib
 notebook
 numpy
 opencv-python
-tensorflow
+tensorflow-cpu
