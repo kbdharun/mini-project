@@ -1,0 +1,5 @@
+matplotlib
+notebook
+numpy
+opencv-python
+tensorflow
