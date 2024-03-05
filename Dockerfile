@@ -1,4 +1,5 @@
 FROM ubuntu:22.04
+ARG DEBIAN_FRONTEND=noninteractive
 
 # Details about the image
 LABEL org.opencontainers.image.title="Mini Project Image"
