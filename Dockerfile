@@ -11,7 +11,7 @@ LABEL org.opencontainers.image.vendor="kbdharun.dev"
 LABEL org.opencontainers.image.licenses="MIT"
 
 # Install Python, Pip and Git
-RUN apt-get update && apt-get install -y python3 python3-pip git libopencv-dev python3-opencv \
+RUN apt-get update && apt-get install -y python3 python3-pip git libgl1-mesa-glx\
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*
 
