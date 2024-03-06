@@ -1,6 +1,9 @@
+graphviz
 keras
 matplotlib
 notebook
 numpy
 opencv-python
+pydot
+scikit-image
 tensorflow
